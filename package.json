@@ -1,0 +1,12 @@
+{
+  "name": "bodypix_test",
+  "version": "1.0.0",
+  "description": "test to assess bodypix capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Federico Bruno",
+  "license": "MIT",
+  "private": true
+}
