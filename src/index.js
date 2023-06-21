@@ -75,5 +75,4 @@ function processSegmentation(segmentation) {
   //Draw the updated image on the canvas
   webcamCanvasCtx.putImageData(imgData, 0, 0);
 }
-
-main();
+export default main();

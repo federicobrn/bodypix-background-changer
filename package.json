@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": " parcel index.html --no-hmr --open",
-    "test": "node src/test.js"
+    "test": "jest"
   },
   "author": "Federico Bruno",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "jest": "^29.5.0",
     "parcel": "^2.9.2"
   },
   "eslintConfig": {
@@ -22,5 +23,8 @@
   },
   "env": {
     "es6": true
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.5.0"
   }
 }
