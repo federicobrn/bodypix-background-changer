@@ -4,7 +4,8 @@
   "description": "test to assess bodypix capabilities",
   "main": "index.js",
   "scripts": {
-    "start": " parcel index.html --no-hmr --open"
+    "start": " parcel index.html --no-hmr --open",
+    "test": "node src/test.js"
   },
   "author": "Federico Bruno",
   "license": "MIT",
